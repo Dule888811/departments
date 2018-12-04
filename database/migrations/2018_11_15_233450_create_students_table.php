@@ -18,12 +18,13 @@ class CreateStudentsTable extends Migration
             $table->char('f_name',20);
             $table->char('l_name',20);
             $table->enum('gender',['male','female']);
-            $table->string(' featured');
+            $table->string('featured');
             $table->smallInteger('grade_maths')->unsigned()->nullable();
             $table->smallInteger('grade_literature')->unsigned()->nullable();
             $table->smallInteger('grade_biology')->unsigned()->nullable();
-            $table->foreign('deprtment_id')
-                ->references('id')->on('deprtments')
+            $table->unsignedInteger('department_id');
+            $table->foreign('department_id')
+                ->references('id')->on('departments')
                 ->onDelete('cascade');
         });
     }
