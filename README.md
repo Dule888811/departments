@@ -13,5 +13,6 @@
 			* Class: -Name, -Class, -Number of students in the class.	   
 			* The student: -Name, -Family Name, -Sex, -Picture,- Mathematics grade, -	   
 			Literature grade, - Biology grade.
+    
             Techonolgies:LARAVEL 5.7, HTML5, CSS3.</p>
     
