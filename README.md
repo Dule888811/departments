@@ -1,4 +1,4 @@
-<p><The task is to create an application that will be used to keep records of one	   
+<p>         <The task is to create an application that will be used to keep records of one	   
 			school. Records will be kept about the classes and students of the classes.	   
 			Namely, when a user opens an application, a list of the classes will be displayed.	   
 			In the list will be shown the informations about the department itself and next to it	   
@@ -12,5 +12,6 @@
 			Information of Entities:	   
 			* Class: -Name, -Class, -Number of students in the class.	   
 			* The student: -Name, -Family Name, -Sex, -Picture,- Mathematics grade, -	   
-			Literature grade, - Biology grade/p>
-      <p>Techonolgies:LARAVEL 5.7, HTML5, CSS3.</p>
+			Literature grade, - Biology grade
+            Techonolgies:LARAVEL 5.7, HTML5, CSS3./p>
+    
